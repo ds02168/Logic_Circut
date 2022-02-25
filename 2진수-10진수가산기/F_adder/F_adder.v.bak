@@ -1,0 +1,7 @@
+module F_adder(A,B,Cin,Cout,S);
+
+input A,B,Cin;
+output Cout,S;
+wire w1,w2,w3;
+
+endmodule 

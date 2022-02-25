@@ -1,0 +1,26 @@
+|F_adder
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+S <= H_adder:h2.port2
+
+
+|F_adder|H_adder:h1
+a => c.IN0
+a => s.IN0
+b => c.IN1
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|F_adder|H_adder:h2
+a => c.IN0
+a => s.IN0
+b => c.IN1
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+

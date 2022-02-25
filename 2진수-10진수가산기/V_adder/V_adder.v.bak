@@ -1,0 +1,9 @@
+module B_adder(A,B,S,Cin,Cout);
+
+input [3:0]A,B;
+input Cin;
+output [3:0]S;
+output Cout;
+wire [2:0]w;
+
+endmodule 

@@ -1,0 +1,9 @@
+module mux(I,S,X);
+
+input[1:0]I;
+input S;
+output X;
+
+assign X = ((~S)&I[0])|(S&I[1]);
+
+endmodule 

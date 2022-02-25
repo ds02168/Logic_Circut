@@ -1,0 +1,14 @@
+module fb_b(A,B,data,com,clock);
+
+input [3:0]A;
+input [3:0]B;
+output [7:0]com;
+output [7:0]data;
+input clock
+
+wire [4:0]in;
+wire [3:0]ten;
+wire [3:0]one;
+
+
+endmodule 
